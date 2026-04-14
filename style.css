@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+.main-header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 20px 5%;
+    background-color: #000000;
+    color: #9191ca;
+    width: 100px;
+}
+.logo {
+    display: flex;
+    align-items:center;
+    gap: 100px;
+}
+
+.navbar {
+    display:flex;
+    gap: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #7979d8;
+    margin: left 20px;
+    font-weight: bold;
+}
