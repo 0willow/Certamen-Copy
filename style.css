@@ -95,3 +95,47 @@
 #habilidades li {
     margin-bottom: 5px;
 }
+
+#proyectos {
+    padding: 40px;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+#proyectos h2 {
+    margin-bottom: 15px;
+}
+
+
+.proyectos-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.proyecto {
+    background-color: #1c1c1c;
+    padding: 15px;
+    border-radius: 8px;
+    width: 280px;
+}
+
+
+.proyecto img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.proyecto p {
+    margin: 10px 0;
+}
+
+
+.proyecto {
+    transition: 0.2s;
+}
+
+.proyecto:hover {
+    transform: scale(1.03);
+}
