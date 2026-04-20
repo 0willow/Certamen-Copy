@@ -68,7 +68,7 @@
     margin: 15px 0 10px;
 }
 
-/* TABLA */
+
 #habilidades table {
     width: 100%;
     border-collapse: collapse;
@@ -86,7 +86,7 @@
     background-color: #222;
 }
 
-/* LISTAS */
+
 #habilidades ul,
 #habilidades ol {
     margin-left: 20px;
