@@ -10,7 +10,7 @@
     align-items:center;
     padding: 20px 5%;
     background-color: #000000;
-    color: #9191ca;
+    color: #c1121f;
 }
 .logo {
     display: flex;
@@ -26,7 +26,7 @@
 
 .navbar a{
     text-decoration: none;
-    color: #7979d8;
+    color: #ffffff;
     margin-left: 20px;
     font-weight: bold;
 }
@@ -52,4 +52,46 @@
     width: 200px;
     height: auto;
     border-radius: 10px;
+}
+
+#habilidades {
+    padding: 40px;
+    background-color: #111;
+    color: white;
+}
+
+#habilidades h2 {
+    margin-bottom: 15px;
+}
+
+#habilidades h3 {
+    margin: 15px 0 10px;
+}
+
+/* TABLA */
+#habilidades table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#habilidades th,
+#habilidades td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+}
+
+#habilidades th {
+    background-color: #222;
+}
+
+/* LISTAS */
+#habilidades ul,
+#habilidades ol {
+    margin-left: 20px;
+}
+
+#habilidades li {
+    margin-bottom: 5px;
 }
